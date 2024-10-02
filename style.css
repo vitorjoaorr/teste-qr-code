@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #D6E2F0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    border: solid black 3px;
+    height: 400px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7%;
+}
+
+.qrcode img{
+    width: 220px;
+    height: 220px;
+    padding-top: 4.5%;
+}
+
+.descricao{
+    text-align: center;
+    padding: 5%;
+}
